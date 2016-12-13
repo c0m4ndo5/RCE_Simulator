@@ -1,0 +1,15 @@
+[
+	{
+		"id": 0,
+		"name": "root",
+		"balance": 101,
+		"lootpool_balance": 0,
+		"inventory": [
+			{
+				"specificItemId":0,
+				"itemId": 0,
+				"condition": 10.0
+			}
+		]
+	}
+]
