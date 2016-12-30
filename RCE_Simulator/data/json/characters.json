@@ -3,12 +3,12 @@
 		"id": 0,
 		"name": "root",
 		"balance": 101,
-		"lootpool_balance": 0,
+		"lootpool_balance": 0.14400000000000002,
 		"inventory": [
 			{
-				"specificItemId":0,
+				"specificItemId": 0,
 				"itemId": 0,
-				"condition": 10.0
+				"condition": 9.840000000000003
 			}
 		]
 	}

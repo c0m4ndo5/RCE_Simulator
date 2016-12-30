@@ -1,23 +1,23 @@
-﻿{
-  "items": [
-    {
-      "id": 0,
-      "name": "Amateour Resource Finder",
-      "value": 10,
-      "decay": 0.02,
-      "depth": 105
-    },
-    {
-      "id": 1,
-      "name": "Granite",
-      "value": 0.01,
-      "weight": 0.5
-    },
-    {
-      "id": 2,
-      "name": "Iron Ore",
-      "value": 0.01,
-      "weight": 0.05
-    }
-  ]
+{
+	"items": [
+		{
+			"id": 0,
+			"name": "Amateour Resource Finder",
+			"value": 10,
+			"decay": 0.02,
+			"depth": 105
+		},
+		{
+			"id": 1,
+			"name": "Granite",
+			"value": 0.01,
+			"weight": 0.5
+		},
+		{
+			"id": 2,
+			"name": "Iron Ore",
+			"value": 0.01,
+			"weight": 0.05
+		}
+	]
 }

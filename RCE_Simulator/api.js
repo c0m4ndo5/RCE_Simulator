@@ -1,6 +1,7 @@
 ﻿var express = require('express');
 var router = express.Router();
 var data = require('./data/data_access.js');
+var gameLogic = require('./Logic/GameLogic.js');
 
 router.get('/inventory/:id', function (req, res) {
     //res.end(JSON.stringify({ message: 'Hello World' }));
@@ -20,7 +21,11 @@ router.get('/testBalance/:id/:value', function (req, res) {
 });
 
 router.get('/useItem/:charID/:specificItemID', function (req, res) {
-    
+    gameLogic.useItem(parseInt(req.params.charID), parseInt(req.params.specificItemID)).then(function (success) {
+        res.send(success.toString());
+    }, function (error) {
+        res.send(error.toString());
+    });
 });
 
 module.exports = router;
